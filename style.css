@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* max-width: 100vw; */
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 600px;
+    margin: 40px;
+}
+.container_1{
+    width: 600px;
+    margin: 50px 10px;
+    background: linear-gradient(to top left, rgb(19, 161, 186), rgb(135, 235, 190));
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 130px;
+}
+.logo{
+    width: 60px;
+}
+.image_2{
+
+}
+.dan{
+    margin-right: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+button{
+    background: none;
+    font-size: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-color: #fff;
+    color: #fff;
+}
+.first_button{
+    background: none;
+    font-size: 30px;
+    border: none;
+    color: white;
+
+    
+}
+
+.chief{
+    font-size: 18px;
+    /* text-align: center; */
+    color: #fff;
+    opacity: 0.6;
+    /* text-align: center; */
+}
+.quote{
+    font-size: 12px;
+    color: #fff;
+}
+
+.first, .second, .third, .fourth, .fifth{
+    width: 370px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+  
+}
+h4{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ejo p{
+    color: #fff;
+    opacity: 0.4;
+}
+.fourth{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.fifth{
+    /* padding: 0 5px; */
+}
+.follow_1{
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+.lead_follow{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.lead{
+    padding-bottom: 5px;
+    color: rgb(135, 235, 190);
+}
+span{
+    padding-top: 10px;
+}
+
+.third .lead{
+    color: rgb(135, 235, 190));
+}
+.follow_2{
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+}
+.lead_fol{
+    background-color: #fff;
+    padding: 5px;
+}
+.last{
+    background-color: rgb(19, 161, 186);
+}
+.contain{
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    /* padding-left: 10px; */
+
+}
+.contain img{
+    width: 100px;
+    text-align: center;
+    /* border: 1px solid #fff; */
+}
